@@ -85,7 +85,7 @@ class BenchmarkComparison extends UtilityObject
 			return $this;
 		}
 
-		public function complete()
+		public function done()
 		{
 			$this->stop();
 			$this->summary(true);
